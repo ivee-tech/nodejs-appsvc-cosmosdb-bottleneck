@@ -10,8 +10,8 @@ on:
   #       - main
 
 env:
-  AZURE_WEBAPP_NAME: "awe-load-test.azurewebsites.net"    # set this to your application's name
-  AZURE_WEBAPP_RG: "awe-load-testAustraliaEast-rg"
+  AZURE_WEBAPP_NAME: "awe2-load-test.azurewebsites.net"    # set this to your application's name
+  AZURE_WEBAPP_RG: "awe2-load-testAustraliaEast-rg"
   LOAD_TEST_RESOURCE: "awe-load-test"
   LOAD_TEST_RESOURCE_GROUP: "awe"
   AZURE_WEBAPP_PACKAGE_PATH: '.'      # set this to the path to your web app project, defaults to the repository root
