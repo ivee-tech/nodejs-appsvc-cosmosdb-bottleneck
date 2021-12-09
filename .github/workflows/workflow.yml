@@ -4,9 +4,10 @@ name: Sample App deploy
 
 # Controls when the workflow will run
 on:
-  push:
-      branches:
-        - main
+  workflow_dispatch
+  # push:
+  #     branches:
+  #       - main
 
 env:
   AZURE_WEBAPP_NAME: "awe-load-test.azurewebsites.net"    # set this to your application's name
